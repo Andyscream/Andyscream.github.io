@@ -5,3 +5,10 @@ db.json
 node_modules/
 public/
 .deploy*/
+
+#设置不忽略主题配置文件
+!/themes/
+/themes/*
+!/themes/next/
+/themes/next/*
+!themes/next/_config.yml
